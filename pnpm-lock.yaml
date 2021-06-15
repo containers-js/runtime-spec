@@ -1,0 +1,57 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@tsconfig/node14': ^1.0.1
+  '@types/node': ^14.17.0
+  prettier: ^2.3.1
+  prettier-plugin-organize-imports: ^2.1.0
+  prettier-plugin-pkg: ^0.9.0
+  typescript: ^4.3.2
+
+devDependencies:
+  '@tsconfig/node14': 1.0.1
+  '@types/node': 14.17.0
+  prettier: 2.3.1
+  prettier-plugin-organize-imports: 2.1.0_prettier@2.3.1+typescript@4.3.2
+  prettier-plugin-pkg: 0.9.0_prettier@2.3.1
+  typescript: 4.3.2
+
+packages:
+
+  /@tsconfig/node14/1.0.1:
+    resolution: {integrity: sha512-509r2+yARFfHHE7T6Puu2jjkoycftovhXRqW328PDXTVGKihlb1P8Z9mMZH04ebyajfRY7dedfGynlrFHJUQCg==}
+    dev: true
+
+  /@types/node/14.17.0:
+    resolution: {integrity: sha512-w8VZUN/f7SSbvVReb9SWp6cJFevxb4/nkG65yLAya//98WgocKm5PLDAtSs5CtJJJM+kHmJjO/6mmYW4MHShZA==}
+    dev: true
+
+  /prettier-plugin-organize-imports/2.1.0_prettier@2.3.1+typescript@4.3.2:
+    resolution: {integrity: sha512-P6TzXkuZRV4g9Fl363tN+r6/ecynu0fwmItKCb/04iksrUtwl/6Jf4DxBPuW8UbcgFRadltxB0VlV5Yh1Ec0Ow==}
+    peerDependencies:
+      prettier: '>=2.0'
+      typescript: '>=2.9'
+    dependencies:
+      prettier: 2.3.1
+      typescript: 4.3.2
+    dev: true
+
+  /prettier-plugin-pkg/0.9.0_prettier@2.3.1:
+    resolution: {integrity: sha512-Wpxe5KuNMGriJl96Zs5GookaDxs+byl3qcDq4+qMOabxeK8un0am5yGNpyuVsSEWdTTEQ96chC8fPRxl/n+euA==}
+    peerDependencies:
+      prettier: ^2.0.5
+    dependencies:
+      prettier: 2.3.1
+    dev: true
+
+  /prettier/2.3.1:
+    resolution: {integrity: sha512-p+vNbgpLjif/+D+DwAZAbndtRrR0md0MwfmOVN9N+2RgyACMT+7tfaRnT+WDPkqnuVwleyuBIG2XBxKDme3hPA==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /typescript/4.3.2:
+    resolution: {integrity: sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true

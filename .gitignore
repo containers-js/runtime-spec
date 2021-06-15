@@ -1,0 +1,6 @@
+dist
+generated
+node_modules
+tmp
+*.log
+.DS_STORE
